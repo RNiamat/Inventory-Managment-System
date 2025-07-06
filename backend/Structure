@@ -1,0 +1,19 @@
+backend/
+├── models/
+│   ├── ProductMnanagement.js
+│   ├── SupplierManagement.js
+│   ├── Users.js
+│   ├── SalesOrder.js
+│   └── StockEntry.js
+├── routes/
+│   ├── productRoutes.js
+│   ├── supplierRoutes.js
+│   ├── userRoutes.js
+│   ├── orderRoutes.js
+│   └── stockRoutes.js
+├── config/
+│   └── db.js
+├── .env
+├── server.js
+└── package.json
+

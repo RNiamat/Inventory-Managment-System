@@ -1,0 +1,20 @@
+.contact-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.contact-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-container p {
+  margin: 10px 0;
+}
+
+.contact-container strong {
+  color: #007B7F; /* Teal-ish */
+}

@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #031B1B;
+  margin: 0;
+  padding: 32px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #042C2C;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px #0000001a;
+  border-top: 4px solid #00DF82;
+}
+
+h2 {
+  color: #00DF82;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #00b96a;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #00b96a;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #031B1B;
+  color: white;
+}
+
+input:focus,
+select:focus {
+  border-color: #00DF82;
+  outline: none;
+}
+
+button {
+  background-color: #00DF82;
+  color: #031B1B;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #00b96a;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 24px;
+  color: #00DF82;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+.message {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  background-color: #042c2c;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  border: 2px solid #00df82;
+}
+
+h2 {
+  color: #00df82;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #00df82;
+  background-color: #031b1b;
+  color: white;
+}
+
+input:disabled,
+select:disabled {
+  background-color: #0b2e2e;
+}
+
+button {
+  background-color: #00df82;
+  color: #031b1b;
+  padding: 12px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:disabled {
+  background-color: #02663c;
+  cursor: not-allowed;
+}
+
+button + button {
+  margin-left: 10px;
+}

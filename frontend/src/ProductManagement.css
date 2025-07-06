@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pm-container {
+  font-family: Arial, sans-serif;
+  background-color: #042c2c;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  border: 2px solid #00df82;
+}
+
+.pm-container h2 {
+  color: #00df82;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #00df82;
+  font-size: 28px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #00df82;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #031b1b;
+  color: #ffffff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #00b96a;
+  outline: none;
+}
+
+button {
+  background-color: #00df82;
+  color: #031b1b;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00b96a;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #00df82;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.message {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}

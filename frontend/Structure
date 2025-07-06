@@ -1,0 +1,16 @@
+FinalProject/
+    backend/
+      .env
+      package-lock.json
+      package.json
+      server.js
+      Structure
+      config/
+        db.js
+      models/
+        ProductManagement.js
+        SalesOrder.js
+        StockEntry.js
+        Supplier.js
+        Users.js
+      node_modules/
