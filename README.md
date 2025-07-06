@@ -1,2 +1,2 @@
-# Invent
+# Inventory System
 
